@@ -5,7 +5,7 @@ from tracker import EuclideanDistTracker
 
 st.set_page_config(page_title="Object Tracking", layout="wide")
 
-st.title("🚗 Moving Object Tracking with IDs")
+st.title("🚗 Moving Object Tracking with Image prepeocessing")
 
 video = st.file_uploader("Upload Video", type=["mp4", "avi", "mov"])
 
