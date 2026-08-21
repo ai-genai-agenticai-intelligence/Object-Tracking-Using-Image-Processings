@@ -1,4 +1,5 @@
 import streamlit as st
+# pyrefly: ignore [missing-import]
 import cv2
 import tempfile
 import os
