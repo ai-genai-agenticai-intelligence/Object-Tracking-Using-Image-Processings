@@ -5,9 +5,7 @@ from tracker import *  # Assuming you need this for later tracking, even though 
 from itertools import zip_longest
 
 # Load the video
-cap = cv2.VideoCapture(
-    r"D:\ABHI-VSCODE\5.OPENCV\Img frame, object_tracking from video\highway.mp4"
-)
+cap = cv2.VideoCapture("highway.mp4")
 
 # Check if video opened successfully
 if not cap.isOpened():
